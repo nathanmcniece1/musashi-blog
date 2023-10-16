@@ -33,7 +33,7 @@ export default function Home({ allPostsData }) {
         <p>My name is Musashi. I'm an artist, designer, and developer currently focused on building a more interesting and equitable Internet. Here's some of my writing. I hope it finds you well.</p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <h2 className={utilStyles.headingLg}>Reflections</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
