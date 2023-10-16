@@ -2,6 +2,7 @@
 title: "Imagineering"
 subtitle: "On Picturing Possible Futures"
 date: "2021-06-12"
+category: "Philosophy"
 ---
 
 We live in the present, we’re surrounded by the past, but the future’s forever a mystery — and yet we’re headed straight for it, we’re building it everyday. A central question, then, it seems, is how do we build something — something we care to live in — which we cannot see? Something that, by its very nature, cannot be seen — cannot be known.

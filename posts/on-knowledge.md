@@ -1,6 +1,7 @@
 ---
 title: "Why's Knowledge So Hard?"
 date: "2023-10-16"
+category: "Philosophy"
 ---
 
 More than two millennia has passed since Plato’s Theaetetus, the seminal work of epistemology, and yet the problem of knowledge remains precisely thus: a problem. Since antiquity, we’ve largely failed to make any real objective progress - as measured in terms of convergence on a single answer - towards resolving the philosophical problem of knowledge. The natural question to ask, it seems, is Why? Why, that is, the problem of knowledge is at all a problem (let alone such a problem). Since the fundamental nature of knowledge appears to be impenetrable, at least by human reason, perhaps we ought to limit our epistemological inquiry to more modest questions. For while it seems highly possible that we shall never come to grips with knowledge, in the ultimate sense, perhaps we might console ourselves - if not fully - by coming to grips with why. More ambitiously, perhaps in attempting to ascertain why knowledge is so hard to pin down, philosophically, we might accidentally clarify the issue. That way, at some distant point in the future, our descendants - much more intelligent apes, one hopes, than we - might happen to resolve the dilemma once and for all. Let this, then, be the intention of this here inquiry: to better understand why we don’t know what we don’t know. To know, if it’s indeed possible, why we don’t know how we know.

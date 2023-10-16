@@ -2,6 +2,7 @@
 title: "Where Is The Mind?"
 subtitle: "Demarcating Cognition"
 date: "2021-10-16"
+category: "Philosophy"
 ---
 
 On the contemporary cognitive science construal of things, the mind is - in the most basic sense - the brain. And what the brain is, on this view, is something like a computer performing manipulations on abstract symbols below the level of our awareness, that amount - in our field of consciousness - to something like representations of the world. The mind, through the cognitive science prism, is thus a kind of mirror of the world, reflecting the reality beyond our minds, however imperfectly. There is, however, a growing dissatisfaction with this “brain-centric” model of our minds; a dissatisfaction borne both of empirical findings and philosophical perspective. According to this increasingly popular movement, cognition extends beyond the brain. Indeed on this particular construal, which really amounts to a collection of perspectives ranging in their level of contrarianism, cognition is better thought of as a dynamical process involving brain, body and the world. This “collection of perspectives”, for the sake of convenience, we can think of, in the aggregate, as the ‘situated cognition’ movement.

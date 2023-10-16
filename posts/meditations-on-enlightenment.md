@@ -2,6 +2,7 @@
 title: "Meditations On Enlightenment"
 subtitle: "On Becoming 'Fully Cooked'"
 date: "2021-01-12"
+category: "Philosophy"
 ---
 
 ‘Enlightenment,’ like all words, has myriad meanings. In a modern, Western context, it’s most often used as a synonym for such terms as wisdom, kindness, generosity, compassion, altruism, maturity — all the good stuff — or else as a reference to the historical period by the same name. In an Eastern or New-Age context, the word has a much more esoteric flavour, being charged as it is with all kinds of religious/mystical/metaphysical connotations, ranging from claims re human omniscience to the origins of the universe. Underneath this variety of meaning and association, however, there is something to which this word points that is at once far more profound and yet so self-evident it’s hard to see it how it’s ever overlooked — something that can be realised directly by all, in every moment.

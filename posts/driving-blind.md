@@ -2,6 +2,7 @@
 title: "The Unquantified Self"
 subtitle: "On the Opacity of Human Health"
 date: "2021-04-12"
+category: "Biology"
 ---
 
 Biological systems are massively complex entities/processes. To give you a sense of just how complex, consider one of the central problems of biology: protein folding. Proteins make us up; they make us work, right. They are, at some level of things, what we are as organisms: huge, intricate towers of proteins. The protein folding problem is the problem of figuring out how proteins, you guessed it, fold. For implicit in the folding dynamics of proteins is their structural/functional dynamics. And since form follows function, and vice versa, gaining insight into one provides, or so we hope, insight into the other. Despite impressive recent advances, the protein folding remains precisely thus: a problem. We really don’t have any reliable/efficient means of figuring out how individual proteins do their thing. Now consider, by comparison, just how challenging the ‘organism problem’ is; that is, the problem of understanding how organisms do their thing, how they work. If we can scarcely wrap our heads around how individual proteins are folding, it stands to reason that wrapping our heads around how billions of proteins coordinate to produce all the things we know and love about life will be considerably more challenging.

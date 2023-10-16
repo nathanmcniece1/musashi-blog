@@ -4,6 +4,7 @@
     font-weight: 800;
     letter-spacing: -0.05rem;
     margin: 1rem 0;
+    font-family:'Inter', sans-serif;
   }
   
   .headingXl {
@@ -12,23 +13,28 @@
     font-weight: 800;
     letter-spacing: -0.05rem;
     margin: 1rem 0;
+    font-family:'Inter', sans-serif;
   }
   
   .headingLg {
     font-size: 1.5rem;
     line-height: 1.4;
     margin: 1rem 0;
+    font-family:'Inter', sans-serif;
   }
   
   .headingMd {
     font-size: 1.2rem;
     line-height: 1.5;
+    font-family:'Inter', sans-serif;
+    font-weight: 300;
   }
   
   .headingSm {
     font-size: 1.2rem;
     line-height: 1.5;
     font-weight: 600;
+    font-family:'Inter', sans-serif;
   }
 
   .borderCircle {
