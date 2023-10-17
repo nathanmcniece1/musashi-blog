@@ -5,6 +5,7 @@ import { getSortedPostsData } from '../lib/posts';
 import Link from 'next/link';
 import Date from '../components/date';
 
+
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
   // const recentPostsData = allPostsData.slice(0,5);
