@@ -29,7 +29,7 @@ export default function Post({ postData }) {
          <Head>
         <title>{postData.title}</title>
       </Head>
-      <article>
+      <article  className={utilStyles.border}>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
         <h2 className={utilStyles.headingSm}>{postData.subtitle}</h2>
         <div className={utilStyles.lightText}>

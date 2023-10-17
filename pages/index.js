@@ -30,10 +30,10 @@ export default function Home({ allPostsData }) {
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"></link>
      
       </Head>
-      <section className={utilStyles.headingMd}>
+      <section className={`${utilStyles.headingMd} ${utilStyles.border}`}>
         <p>My name is Musashi. I'm an artist, designer, and developer currently focused on building a more interesting and equitable Internet. Here's some of my writing. I hope it finds you well.</p>
       </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.border}`}>
         <h2 className={utilStyles.headingLg}>Reflections</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
