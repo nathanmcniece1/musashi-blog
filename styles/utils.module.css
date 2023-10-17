@@ -1,12 +1,10 @@
 .heading2Xl {
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 1.2;
-    text-shadow: #0013BF 1px 0 60px;
     font-weight: 800;
     letter-spacing: -0.05rem;
     margin: 1rem 0;
     font-family:'Inter', sans-serif;
-    margin-bottom: 50px;
   }
   
   .headingXl {
@@ -65,12 +63,5 @@
     color: #666;
   }
 
-  .border {
-    box-shadow: 0 1px 15px -6px rgb(39, 44, 200);
-    border-radius: 25px;
-    padding: 10px;
-    padding-left: 30px;
-    margin-bottom: 20px;
-  }
 
  
