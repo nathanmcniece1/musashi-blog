@@ -47,6 +47,9 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
       </section>
+      <div>
+      <Link href={`/newpage`}>Click here for new page</Link>
+      </div>
     </Layout>
   );
 }
