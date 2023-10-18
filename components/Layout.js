@@ -20,7 +20,7 @@ export default function Layout({ children, home }) {
           property="og:image"
           content="/images/musashi.jpg?v=2" 
         />
-        <meta name="og:title" content={siteTitle} />
+        <meta name="og:title" content="/images/musashi.jpg?v=2" />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className={styles.header}>
