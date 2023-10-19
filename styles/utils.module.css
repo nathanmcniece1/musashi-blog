@@ -66,14 +66,21 @@
 
   .preview {
     font-family:'Inter', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .tile {
     border: 1px solid black;
-    box-shadow: 0 1px 15px -6px rgb(255, 87, 179);
+    box-shadow: 0 1px 15px -10px rgb(255, 87, 179);
     border-radius: 20px;
     padding: 30px;
-    margin-top: 40px;
+    margin-top: -10px;
   }
  
+  .intro {
+    margin-bottom: 60px;
+  }
+
+  .tile:hover {
+    background-color: rgb(248, 193, 217);
+  }

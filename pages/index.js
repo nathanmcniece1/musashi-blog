@@ -33,14 +33,14 @@ export default function Home({ allPostsData }) {
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"></link>
       </Head>
       <section>
-        <p>My name is Musashi. I'm an artist, designer, and developer currently focused on building a more interesting and equitable Internet. Here's some of my writing. I hope it finds you well.</p>
+        <p className={utilStyles.intro}>My name is Musashi. I'm an artist, designer, and developer currently focused on building a more interesting and equitable Internet. Here's some of my writing. I hope it finds you well.</p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.border}`}>
         {/* <h2 className={utilStyles.headingLg}>Reflections</h2> */}
-        <div className={utilStyles.tile}>
+        <div>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title, preview }) => (
-            <li className={utilStyles.listItem} key={id}>
+            <li className={`${utilStyles.listItem} ${utilStyles.tile}`} key={id}>
               <Link href={`/posts/${id}`}>{title}</Link>
               <br />
               <small className={utilStyles.lightText}>
