@@ -28,27 +28,30 @@ export default function Home({ allPostsData }) {
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"></link>
-     
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"></link>
       </Head>
-      <section className={`${utilStyles.headingMd} ${utilStyles.border}`}>
+      <section>
         <p>My name is Musashi. I'm an artist, designer, and developer currently focused on building a more interesting and equitable Internet. Here's some of my writing. I hope it finds you well.</p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.border}`}>
         <h2 className={utilStyles.headingLg}>Reflections</h2>
         <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
+          {allPostsData.map(({ id, date, title, preview }) => (
             <li className={utilStyles.listItem} key={id}>
               <Link href={`/posts/${id}`}>{title}</Link>
               <br />
               <small className={utilStyles.lightText}>
                 <Date dateString={date} />
               </small>
+              <p className={utilStyles.preview}>{preview}</p>
             </li>
           ))}
         </ul>
       </section>
       <div>
-      <Link href={`/newpage`}>Click here for new page</Link>
+      {/* <Link href={`/newpage`}>Click here for new page</Link> */}
       </div>
     </Layout>
   );

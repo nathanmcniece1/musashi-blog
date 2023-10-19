@@ -2,6 +2,7 @@
 title: "Crypto Is Dead. Long Live Crypto."
 date: "2022-11-12"
 category: "Crypto"
+preview: "“Crypto” is notoriously hard to grok. While this is partly a function of the conceptual complexity that’s inherent to the subject — transcending, as it does, disciplinary bounds — it’s also due to the fact that the very concept of “crypto” is itself a moving target; perpetually redefining, evolving, becoming."
 ---
 
 “Crypto” is notoriously hard to grok. While this is partly a function of the conceptual complexity that’s inherent to the subject — transcending, as it does, disciplinary bounds — it’s also due to the fact that the very concept of “crypto” is itself a moving target; perpetually redefining, evolving, becoming. A quick history here is illustrative. In the beginning, crypto was digital money — “a peer-to-peer electronic cash system” . Then it was digital gold. Then it became about the data structure that underpins these concepts, the infamous “blockchain”. As the world was still wrestling with the notion of blockchain, along came “smart contracts” and the idea of a “world computer”. And then in a torrent: DeFi, NFTs, DeSci, DeSoc, DAOs. Because, well, when it rains it pours.

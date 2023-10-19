@@ -2,6 +2,7 @@
 title: "On Hyperfinancialisation"
 date: "2022-12-12"
 category: "Crypto"
+preview: "One of the persistent criticisms of crypto is that it represents the ‘hyperfinancialisation’ of things; an obvious and unflattering symptom of our ‘hypercapitalist’ society. If we were to embed crypto into our digital operating system, the argument goes, it would invariably commoditise our online interactions, and thus, naturally, degrade them in some basic sense."
 ---
 
 One of the persistent criticisms of crypto is that it represents the ‘hyperfinancialisation’ of things; an obvious and unflattering symptom of our ‘hypercapitalist’ society. If we were to embed crypto into our digital operating system, the argument goes, it would invariably commoditise our online interactions, and thus, naturally, degrade them in some basic sense. Our lives are already financial enough. Therefore, we should seek to resist any further financialisation of the Web. Or at least that’s the basic shape of the argument.

@@ -2,6 +2,7 @@
 title: "Meditations On Memecoins"
 date: "2023-06-12"
 category: "Crypto"
+preview: "Are memecoins merely emblematic of the degeneracy that’s come to define the cryptosphere, or do they instead represent a powerful, Internet-native fusion of culture and finance? Is this the future of both, or simply a Present we must escape?"
 ---
 
 Are memecoins merely emblematic of the degeneracy that’s come to define the cryptosphere, or do they instead represent a powerful, Internet-native fusion of culture and finance? Is this the future of both, or simply a Present we must escape?

@@ -3,6 +3,7 @@ title: "What Is Philosophy?"
 subtitle: "Getting meta for better"
 date: "2021-02-12"
 category: "Philosophy"
+preview: "Philosophy has conventionally been framed in terms of the ‘pursuit of Knowledge’ (or just knowledge, depending on one’s epistemology). Plato — the ancient Greek dude — had a story about a cave that captures this view of things. You might’ve even heard of it. Something about how ignorance..."
 ---
 
 Philosophy has conventionally been framed in terms of the ‘pursuit of Knowledge’ (or just knowledge, depending on one’s epistemology). Plato — the ancient Greek dude — had a story about a cave that captures this view of things. You might’ve even heard of it. Something about how ignorance is akin to living chained in the darkness of the underground, taking shadows for ultimate Reality, whereas Knowledge is the light of the world above — Reality for real. It’s, like, an allegory, right. And the moral of it is that the philosopher — should they have their business straight — ought to dispel as much darkness as possible, to get out of the cave, to live and help and others live in the light. To enlighten, as it were.

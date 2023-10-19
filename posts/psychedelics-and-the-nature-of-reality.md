@@ -3,6 +3,7 @@ title: "Psychedelics and the Nature of Reality"
 subtitle: "The Philosopher's Stoned"
 date: "2021-03-12"
 category: "Philosophy"
+preview: "There are experiences, and then there are Experiences. Psychedelics induce the latter — with almost perfect reliability. By tickling the brain’s serotonergic system, these compounds open up vistas of mind, dimensions of experience, landscapes of Reality, entirely unfathomable to the uninitiated."
 ---
 
 There are experiences, and then there are Experiences. Psychedelics induce the latter — with almost perfect reliability. By tickling the brain’s serotonergic system, these compounds open up vistas of mind, dimensions of experience, landscapes of Reality, entirely unfathomable to the uninitiated. They also appear to be rather good for you. But what, if anything, do they tell us about the ‘ultimate nature of Reality’? How, if at all, do they affect our implicit/explicit philosophical theory of everything? Are they really, as it’s been supposed, windows onto a different — and even much more fundamental — Reality? And do they truly reveal — as anyone who’s taken enough DMT will swear — the existence of aliens? Or, are they instead just a bit of fun, solicitors of psychological pyrotechnics that, while certainly capable of inducing some amount of ontological shock, leave—upon rational inspection— our prevailing worldview intact? These, if nothing else, are the kinds of questions that psychedelics conjure. They are for this reason alone — or so they should be — of eminent interest to any philosopher worth the name.

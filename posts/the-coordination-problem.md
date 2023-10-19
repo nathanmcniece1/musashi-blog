@@ -2,7 +2,8 @@
 title: "The Coordination Problem"
 subtitle: "Why Organisations Matter"
 date: "2021-10-12"
-category: "Philosophy"
+category: "General philosophy"
+preview: "We become what we put our resources to. This is true at the level of our individual lives, as at the level of civilisation. The first question, in both cases, is what do we actually want to become? Once we’re agreed on what we want to become, we can then turn our minds to how we ought to get there — how to actualise the becoming."
 ---
 
 We become what we put our resources to. This is true at the level of our individual lives, as at the level of civilisation. The first question, in both cases, is what do we actually want to become? Once we’re agreed on what we want to become, we can then turn our minds to how we ought to get there — how to actualise the becoming. In the individual case, the process then becomes one of cultivating ever greater control over our capacity to coordinate our behaviour towards this particular end (or set thereof). Once we know what we’re chasing, we intentionally struggle — more or less — to put our time, energy, and money into that thing/s, so that we might create the kind of future we hope to inhabit.
