@@ -36,7 +36,8 @@ export default function Home({ allPostsData }) {
         <p>My name is Musashi. I'm an artist, designer, and developer currently focused on building a more interesting and equitable Internet. Here's some of my writing. I hope it finds you well.</p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.border}`}>
-        <h2 className={utilStyles.headingLg}>Reflections</h2>
+        {/* <h2 className={utilStyles.headingLg}>Reflections</h2> */}
+        <div className={utilStyles.tile}>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title, preview }) => (
             <li className={utilStyles.listItem} key={id}>
@@ -49,6 +50,7 @@ export default function Home({ allPostsData }) {
             </li>
           ))}
         </ul>
+        </div>
       </section>
       <div>
       {/* <Link href={`/newpage`}>Click here for new page</Link> */}

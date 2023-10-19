@@ -1,7 +1,6 @@
 ---
 title: "Mary and the Meta-Problem"
 date: "2021-07-16"
-category: "Philosophy"
 preview: "Mary, of the famed ‘Knowledge Argument' does indeed acquire new knowledge upon seeing red for the first time. However, this fact does not, as is generally assumed, undermine physicalism. At least it need not. What it does undermine, definitively, is objectivism: the notion that everything, from quarks to quacks, can be understood by way of objective description."
 ---
 
