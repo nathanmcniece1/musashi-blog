@@ -1,6 +1,6 @@
 ---
 title: "Psychedelics and the Nature of Reality"
-subtitle: "The Philosopher's Stoned"
+# subtitle: "The Philosopher's Stoned"
 date: "2021-03-12"
 category: "Philosophy"
 preview: "There are experiences, and then there are Experiences. Psychedelics induce the latter — with almost perfect reliability. By tickling the brain’s serotonergic system, these compounds open up vistas of mind, dimensions of experience, landscapes of Reality, entirely unfathomable to the uninitiated."
