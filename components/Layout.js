@@ -4,15 +4,20 @@ import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 import MenuIcon from '../components/MenuIcon'
+import Menu from '../components/Menu'
+import { useState } from "react";
 
 const name = 'Musashi';
 export const siteTitle = 'Musashi Blog';
 
 export default function Layout({ children, home }) {
 
-    function handleMenuIconClick() {
-        console.log("Menu Icon Clicked!");  // Replace with your logic to open or toggle a menu
-      }
+    const [showContents, setShowContents] = useState(false);
+
+    const toggleContents = () => {
+      setShowContents(!showContents);
+      console.log(showContents)
+    };
       
 
   return (
@@ -42,7 +47,10 @@ export default function Layout({ children, home }) {
               alt=""
             /> */}
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
-            <MenuIcon onMenuClick={handleMenuIconClick}/>
+            <MenuIcon onMenuClick={toggleContents}/>
+            {showContents && (
+              <Menu />
+          )}
           </>
         ) : (
           <>
