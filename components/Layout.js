@@ -3,11 +3,18 @@ import Image from 'next/image';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
+import MenuIcon from '../components/MenuIcon'
 
 const name = 'Musashi';
 export const siteTitle = 'Musashi Blog';
 
 export default function Layout({ children, home }) {
+
+    function handleMenuIconClick() {
+        console.log("Menu Icon Clicked!");  // Replace with your logic to open or toggle a menu
+      }
+      
+
   return (
     <div className={styles.container}>
       <Head>
@@ -26,15 +33,16 @@ export default function Layout({ children, home }) {
       <header className={styles.header}>
         {home ? (
           <>
-            <Image
+            {/* <Image
               priority
               src="/images/musashi-solarpunk.png"
               className={utilStyles.borderCircle}
               height={144}
               width={144}
               alt=""
-            />
+            /> */}
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <MenuIcon onMenuClick={handleMenuIconClick}/>
           </>
         ) : (
           <>

@@ -4,6 +4,7 @@ import utilStyles from '../styles/utils.module.css';
 import { getSortedPostsData } from '../lib/posts';
 import Link from 'next/link';
 import Date from '../components/date';
+import MenuIcon from '../components/MenuIcon';
 
 
 export async function getStaticProps() {
@@ -17,9 +18,10 @@ export async function getStaticProps() {
 }
 
 export default function Home({ allPostsData }) {
-  
+
   return (
     <Layout home>
+      
       <Head>
         <title>{siteTitle}</title>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
