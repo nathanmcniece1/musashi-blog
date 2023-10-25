@@ -4,6 +4,7 @@ import utilStyles from '../styles/utils.module.css';
 import { getSortedPostsData } from '../lib/posts';
 import Link from 'next/link';
 import Date from '../components/date';
+import Tabs from '../components/Tabs'
 
 
 export async function getStaticProps() {
@@ -37,6 +38,7 @@ export default function Home({ allPostsData }) {
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.border}`}>
         {/* <h2 className={utilStyles.headingLg}>Reflections</h2> */}
+        <Tabs/>
         <div>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title, preview }) => (

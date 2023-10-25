@@ -28,7 +28,7 @@
     border-radius: 50%; 
     border: 1px solid black; 
     cursor: pointer;
-    margin-top: -35px;
+    margin-top: -40px;
     position: absolute;
     top: 25px;
     right: 10px;
@@ -38,4 +38,7 @@
     background-color: #EEF8FF;
 }
 
+.circleContainer:active {
+    background-color: #add8f6; 
+}
 
