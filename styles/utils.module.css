@@ -115,7 +115,7 @@
     right: 10px;
     padding: 0;
     background-color: #ffffff;
-    width: 350px;
+    width: 360px;
     min-height: 500px;
     max-height: 700px;
     overflow-y: auto;
@@ -155,7 +155,7 @@
     font-size: 16px;
     margin-left: 12px;
     color: #a0a0a0;
-    margin-right: 2px;
+    margin-right: px;
     border: 1px solid black;
     border-radius: 20px;
     padding-left: 10px;
