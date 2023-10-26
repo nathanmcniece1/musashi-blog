@@ -154,6 +154,10 @@
     margin-right: 14px;
   }
 
+  .tabs a {
+    color: #a0a0a0;
+  }
+
   .tabs:hover {
     color: black;
     cursor: pointer;
@@ -161,6 +165,7 @@
 
   .activeTab {
     color: black;
+    border-bottom: 1px solid black;
 }
 
 .nfts {
@@ -172,8 +177,9 @@
 
 .nfts img {
     width: 100%; /* Make each image take up the full width of its grid cell */
-    height: 275px; /* Example height, adjust as needed */
+    height: 250px; /* Example height, adjust as needed */
     object-fit: cover; /* Ensure images cover the full area without distortion */
     display: block; /* Remove any default vertical space below the image */
     border-radius: 20px;
 }
+

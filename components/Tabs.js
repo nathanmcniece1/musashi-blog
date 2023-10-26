@@ -1,32 +1,36 @@
-import { useState } from 'react';
-import utilStyles from '../styles/utils.module.css'
+import { useRouter } from 'next/router'; // Import useRouter
 import Link from 'next/link';
+import utilStyles from '../styles/utils.module.css';
 
 export default function Tabs(){
-    const [selectedTab, setSelectedTab] = useState('Essays'); // default selected tab
+    const router = useRouter(); // Get the current route
+
+    let selectedTab;
+    if (router.pathname === '/') {
+        selectedTab = 'Essays';
+    } else if (router.pathname === '/collected') {
+        selectedTab = 'Collected';
+    } else {
+        selectedTab = 'Library';  // Adjust as needed for other routes
+    }
 
     return (
         <div className={utilStyles.tabsDiv}>
             <h2 
                 className={`${utilStyles.tabs} ${selectedTab === 'Essays' ? utilStyles.activeTab : ''}`} 
-                onClick={() => setSelectedTab('Essays')}
             >
                 <Link href={`/`}>Essays</Link> 
             </h2>
             <h2 
                 className={`${utilStyles.tabs} ${selectedTab === 'Library' ? utilStyles.activeTab : ''}`} 
-                onClick={() => setSelectedTab('Library')}
             >
-                Library
+                <Link href={`/library`}>Library</Link> 
             </h2>
             <h2 
                 className={`${utilStyles.tabs} ${selectedTab === 'Collected' ? utilStyles.activeTab : ''}`} 
-                onClick={() => setSelectedTab('Collected')}
             >
-                <Link href={`/collected`}>Collected</Link> 
+                <Link href={`/collected`} className={utilStyles.links}>Collected</Link> 
             </h2>
         </div>
     )
 }
-
-
