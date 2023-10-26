@@ -16,6 +16,8 @@ function Collected() {
         fetch('https://api.opensea.io/api/v2/chain/zora/account/0xb3C7AcA9728aB0355A1AFFfec5513D39a5986892/nfts', options)
             .then(response => response.json())
             .then(data => {
+
+                // console.log(data)
                 // Filter out the nfts with the name "LMAO.EXE"
                 const filteredNfts = data.nfts.filter(nft => nft.name !== "LMAO.EXE");
                 setNfts(filteredNfts);
