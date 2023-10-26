@@ -162,3 +162,18 @@
   .activeTab {
     color: black;
 }
+
+.nfts {
+    display: grid;
+    grid-template-columns: repeat(2, 50%); /* Two columns each of 45% width */
+    gap: 10px;; /* Adjust as needed. This provides space between the items. */
+    justify-content: center; /* Center the grid items if there's leftover space */
+}
+
+.nfts img {
+    width: 100%; /* Make each image take up the full width of its grid cell */
+    height: 275px; /* Example height, adjust as needed */
+    object-fit: cover; /* Ensure images cover the full area without distortion */
+    display: block; /* Remove any default vertical space below the image */
+    border-radius: 20px;
+}

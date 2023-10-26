@@ -7,6 +7,7 @@ import Date from '../components/date';
 import Tabs from '../components/Tabs'
 
 
+
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
   // const recentPostsData = allPostsData.slice(0,5);
@@ -39,6 +40,7 @@ export default function Home({ allPostsData }) {
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.border}`}>
         {/* <h2 className={utilStyles.headingLg}>Reflections</h2> */}
         <Tabs/>
+        {/* <Collected /> */}
         <div>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title, preview }) => (
