@@ -7,6 +7,10 @@
     margin-bottom: 10px;
     font-family: 'Bebas Neue', sans-serif;
   }
+
+  .heading2Xl:hover {
+    color: black;
+  }
   
   .headingXl {
     font-size: 2rem;
