@@ -34,9 +34,6 @@ export default function Home({ allPostsData }) {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"></link>
       </Head>
-      <section>
-        {/* <p className={utilStyles.intro}>My name is Musashi. I'm an artist, designer, and developer currently focused on building a more interesting and equitable Internet. Here's some of my writing. I hope it finds you well.</p> */}
-      </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.border}`}>
         {/* <h2 className={utilStyles.headingLg}>Reflections</h2> */}
         <Tabs/>
