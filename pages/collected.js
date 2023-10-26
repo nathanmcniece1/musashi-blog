@@ -8,6 +8,7 @@ function CollectedPage(){
         <Layout home>
             <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.border}`}>
                 <Tabs />
+                <h2 className={utilStyles.headingLg}>Some content I've collected from across the Internet</h2>
                 <Collected />
             </section>
         </Layout>
