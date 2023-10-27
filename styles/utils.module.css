@@ -198,7 +198,7 @@
     display: block; /* Remove any default vertical space below the image */
     border-radius: 20px;
     box-shadow: rgba(37, 41, 46, 0.2) 0px 10px 30px;
-    padding: none;
+    padding: 0;
     
 }
 
