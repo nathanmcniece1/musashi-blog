@@ -1,0 +1,48 @@
+/* Styling for the book tiles container */
+.bookContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; /* Space between the tiles */
+    padding: 0px; /* Padding around the tiles container */
+    width: 100%; /* You can adjust this to fit your design */
+    margin-top: 10px;
+    justify-content: center; 
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* Styling for individual book tiles */
+.bookTile {
+    background-color: #ffffff; /* Light gray color for the tile */
+    border-radius: 20px; /* Rounded corners */
+    padding: 10px;
+    padding-top: 0px;
+    text-align: left; /* Center the text/content */
+    transition: transform 0.3s; /* Smooth hover effect */
+    border: 1px solid black;
+    height: 300px;
+    justify-content: space-between;
+    box-shadow: 0 1px 15px -10px rgb(0, 0, 0);
+}
+
+.bookTile:hover {
+    transform: translateY(-10px); /* Small lift on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Shadow for depth perception on hover */
+    background-color: #EEF8FF;
+}
+
+/* Styling for the book title */
+.bookTitle {
+    font-size: 30px; /* Adjust to fit your design */
+    font-weight: bold;
+    margin-top: 20px; /* Space at the top */
+    margin-bottom: 10px; /* Space at the bottom */
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+/* Styling for the author's name */
+.authorName {
+    font-size: 16px; /* Adjust to fit your design */
+    color: #666; /* Dark gray color */
+    font-family: 'Roboto Mono', monospace;
+}
