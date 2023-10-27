@@ -207,5 +207,7 @@
     font-size: 34px;
     font-weight: 300;
     margin: 0;
+    line-height: 1;
+    margin-bottom: 10px;
 }
 
