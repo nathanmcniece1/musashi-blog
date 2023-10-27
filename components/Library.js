@@ -6,6 +6,15 @@ function Library(){
         { title: "WAKING UP", author: "By Sam Harris" },
         { title: "THE MORAL LANDSCAPE", author: "By Sam Harris" },
         { title: "THE PROBLEMS OF PHILOSOPHY", author: "By Bertrand Russell" },
+        { title: "WAKING UP", author: "By Sam Harris" },
+        { title: "THE MORAL LANDSCAPE", author: "By Sam Harris" },
+        { title: "THE PROBLEMS OF PHILOSOPHY", author: "By Bertrand Russell" },
+        { title: "WAKING UP", author: "By Sam Harris" },
+        { title: "THE MORAL LANDSCAPE", author: "By Sam Harris" },
+        { title: "THE PROBLEMS OF PHILOSOPHY", author: "By Bertrand Russell" },
+        { title: "WAKING UP", author: "By Sam Harris" },
+        { title: "THE MORAL LANDSCAPE", author: "By Sam Harris" },
+        { title: "THE PROBLEMS OF PHILOSOPHY", author: "By Bertrand Russell" },
         
     ];
 
