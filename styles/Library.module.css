@@ -34,7 +34,7 @@
 /* Styling for the book title */
 .bookTitle {
     font-size: 30px; /* Adjust to fit your design */
-    font-weight: bold;
+    font-weight: 300;
     margin-top: 20px; /* Space at the top */
     margin-bottom: 10px; /* Space at the bottom */
     font-family: 'Bebas Neue', sans-serif;
