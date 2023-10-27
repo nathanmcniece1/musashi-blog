@@ -54,21 +54,11 @@ export default function Layout({ children, home }) {
           </>
         ) : (
           <>
-            <Link href="/">
-              <Image
-                priority
-                src="/images/musashi-solarpunk.png"
-                className={utilStyles.borderCircle}
-                height={108}
-                width={108}
-                alt=""
-              />
-            </Link>
-            <h2 className={utilStyles.headingLg}>
-              <Link href="/" className={utilStyles.colorInherit}>
-                {name}
-              </Link>
-            </h2>
+            <h1 className={utilStyles.heading2Xl}><Link href="/">{name}</Link></h1>
+            <MenuIcon onMenuClick={toggleContents}/>
+            {showContents && (
+              <Menu />
+          )}
           </>
         )}
       </header>

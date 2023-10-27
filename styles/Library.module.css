@@ -22,11 +22,16 @@
     border: 1px solid black;
     height: 300px;
     justify-content: space-between;
-    box-shadow: 0 1px 15px -10px rgb(0, 0, 0);
+    box-shadow: rgba(37, 41, 46, 0.2) 0px 10px 30px;
+
+    display: flex;
+    flex-direction: column;
+
+
 }
 
 .bookTile:hover {
-    transform: translateY(-10px); /* Small lift on hover */
+    transform: translateY(-2px); /* Small lift on hover */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Shadow for depth perception on hover */
     background-color: #EEF8FF;
 }
@@ -46,3 +51,11 @@
     color: #666; /* Dark gray color */
     font-family: 'Roboto Mono', monospace;
 }
+
+
+@media (min-width: 600px) {
+    .bookTile {
+      height: 400px;
+    }
+  }
+  
