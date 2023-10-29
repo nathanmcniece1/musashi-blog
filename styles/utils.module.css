@@ -232,7 +232,7 @@
   }
   
   .contactForm label {
-    font-weight: bold;
+    font-weight: 300;
   }
   
   .contactForm input[type="text"],
@@ -244,6 +244,7 @@
     margin-bottom: 0.5rem;
     border: 1px solid #ccc;
     border-radius: 10px;
+    font-size: 16px; /* Set font size to 16px to prevent zooming */
   }
   
   .contactForm button {
@@ -261,6 +262,4 @@
   .contactForm button:hover {
     background-color: #2d2f30;
   }
-
-
   
