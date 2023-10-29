@@ -11,8 +11,12 @@ function About(){
                 <h2 className={utilStyles.headingCl}>My name is Musashi. I’m an Internet avatar interested in the notion of human flourishing and the Web as a new politico-economic jurisdiction. This is my digital home.</h2>
                 <Image 
                     src="/images/musashi.png"
-                    width={500}
-                    height={500}
+                    style={{
+                        width: '100%',
+                        height: 'auto',
+                      }}
+                      width={500}
+                      height={500}
                     alt="Picture of the author"
                     className={utilStyles.avatar}
                 />
