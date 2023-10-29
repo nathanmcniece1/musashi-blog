@@ -263,3 +263,6 @@
     background-color: #2d2f30;
   }
   
+  .avatar {
+    border-radius: 20px;
+  }
