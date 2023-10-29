@@ -218,3 +218,49 @@
     margin-bottom: 10px;
 }
 
+.contactFormContainer {
+    max-width: 600px;
+    margin: auto;
+    padding: 1rem;
+    background-color: #f7f7f7; /* Light gray background for the form area */
+    border-radius: 8px;
+  }
+  
+  .contactForm {
+    display: grid;
+    grid-gap: 1rem;
+  }
+  
+  .contactForm label {
+    font-weight: bold;
+  }
+  
+  .contactForm input[type="text"],
+  .contactForm input[type="email"],
+  .contactForm textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .contactForm button {
+    padding: 0.5rem 1rem;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: 'Roboto Mono', monospace;
+    padding: 14px;
+  }
+  
+  .contactForm button:hover {
+    background-color: #2d2f30;
+  }
+
+
+  
