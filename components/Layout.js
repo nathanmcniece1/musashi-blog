@@ -7,6 +7,7 @@ import MenuIcon from '../components/MenuIcon'
 import Menu from '../components/Menu'
 import { useState } from "react";
 
+
 const name = 'Musashi';
 export const siteTitle = 'Musashi Blog';
 
