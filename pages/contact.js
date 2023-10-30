@@ -6,7 +6,7 @@ function Contact() {
   return (
     <Layout home>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.border}`}>
-        <Tabs />
+        {/* <Tabs /> */}
         <h2 className={utilStyles.headingCl}>Have something to discuss? Get in touch.</h2>
         <div className={utilStyles.contactFormContainer}>
           <form className={utilStyles.contactForm}>
@@ -17,7 +17,7 @@ function Contact() {
             <input type="email" id="email" name="email" required />
 
             <label htmlFor="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
+            <textarea id="message" name="message" required className={utilStyles.textArea}></textarea>
 
             <button type="submit" className={utilStyles.sbmtBtn}>Send Message</button>
           </form>
