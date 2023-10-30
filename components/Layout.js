@@ -31,7 +31,7 @@ export default function Layout({ children, home }) {
         />
         <meta
           property="og:image"
-          content="/images/musashi.jpg?v=2" 
+          content="/images/musashi.png" 
         />
         <meta name="og:title" content="/images/musashi.jpg?v=2" />
         <meta name="twitter:card" content="summary_large_image" />
