@@ -8,6 +8,10 @@
     font-family: 'Bebas Neue', sans-serif;
   }
 
+  .darkHeading2Xl {
+    color: white;
+  }
+
   .heading2Xl:hover {
     color: black;
   }
@@ -222,7 +226,7 @@
     max-width: 600px;
     margin: auto;
     padding: 1rem;
-    background-color: #F4F4F4; /* Light gray background for the form area */
+    background-color: #f6f6f6; /* Light gray background for the form area */
     border-radius: 20px;
     box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
     margin-top: 30px;
@@ -249,6 +253,7 @@
     border: 1px solid #ccc;
     border-radius: 10px;
     font-size: 16px; /* Set font size to 16px to prevent zooming */
+    font-family: 'Roboto Mono', monospace;
   }
   
   .contactForm button {
@@ -277,7 +282,7 @@
   }
 
   .headingAbt {
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 300;
     margin: 0;
     line-height: 1;
@@ -289,3 +294,11 @@
       font-size: 32px;
     }
   }
+
+@media (min-width: 600px) {
+    .nfts img {
+        height: 300px;
+    }
+  }
+
+ 

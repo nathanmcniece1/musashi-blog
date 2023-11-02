@@ -30,3 +30,9 @@ img {
   display: block;
 }
 
+body.dark-mode {
+  background-color: #091035;
+  color: #ffffff;
+  /* Add additional dark mode styles as needed */
+}
+

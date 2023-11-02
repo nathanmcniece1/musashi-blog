@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styles from '../styles/Library.module.css';
 
-function Library() {
+function Library({ darkMode }) {
     const [books, setBooks] = useState([]);
 
     const fetchBooks = (userID, apiKey, bookshelfID, startIndex = 0, accumulatedBooks = []) => {
@@ -47,7 +47,7 @@ function Library() {
     return (
         <div className={styles.bookContainer}>
             {books.map((book, index) => (
-                <a href={book.infoLink} target="_blank" rel="noopener noreferrer" key={index} className={styles.bookTile}>
+                <a href={book.infoLink} target="_blank" rel="noopener noreferrer" key={index} className={`${styles.bookTile} ${darkMode ? styles.dark : ''}`}>
                     {/* {book.imageUrl && <img src={book.imageUrl} alt={book.title} className={styles.bookImage} />} */}
                     <div className={styles.bookTitle}>{book.title}</div>
                     <div className={styles.authorName}>{book.author}</div>

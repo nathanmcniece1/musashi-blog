@@ -2,9 +2,9 @@ import Layout from '../components/Layout';
 import Tabs from '../components/Tabs';
 import utilStyles from '../styles/utils.module.css'; // Ensure you have the styles imported
 
-function Contact() {
+function Contact({ darkMode, toggleDarkMode }) {
   return (
-    <Layout home>
+    <Layout home darkMode={darkMode} toggleDarkMode={toggleDarkMode}>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.border}`}>
         {/* <Tabs /> */}
         <h2 className={utilStyles.headingCl}>Have something to discuss? Get in touch.</h2>

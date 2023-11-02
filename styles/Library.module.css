@@ -58,4 +58,9 @@
       height: 400px;
     }
   }
+
+  .bookTile.dark {
+    background-color: #091035;
+    color: #ffffff;
+  }
   

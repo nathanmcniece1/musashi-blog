@@ -4,13 +4,13 @@ import utilStyles from '../styles/utils.module.css'; // Ensure you have the styl
 import Library from '../components/Library'
 
 
-function Libpage(){
+function Libpage({ darkMode, toggleDarkMode }){
     return (
-        <Layout home>
+        <Layout home darkMode={darkMode} toggleDarkMode={toggleDarkMode}>
             <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.border}`}>
                 <Tabs />
                 <h2 className={utilStyles.headingCl}>noteworthy books i’d like to recommend you, the internet</h2>
-                <Library />
+                <Library darkMode={darkMode}/>
             </section>
         </Layout>
     )

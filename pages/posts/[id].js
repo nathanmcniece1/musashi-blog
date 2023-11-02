@@ -23,9 +23,9 @@ export async function getStaticPaths() {
   };
 }
 
-export default function Post({ postData }) {
+export default function Post({ postData, darkMode, toggleDarkMode  }) {
     return (
-      <Layout>
+      <Layout darkMode={darkMode} toggleDarkMode={toggleDarkMode}>
          <Head>
         <title>{postData.title}</title>
       </Head>

@@ -18,10 +18,10 @@ export async function getStaticProps() {
   };
 }
 
-export default function Home({ allPostsData }) {
+export default function Home({ allPostsData, darkMode, toggleDarkMode }) {
 
   return (
-    <Layout home>
+    <Layout home darkMode={darkMode} toggleDarkMode={toggleDarkMode}>
       <Head>
         <title>{siteTitle}</title>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
