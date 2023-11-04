@@ -8,12 +8,12 @@
     font-family: 'Bebas Neue', sans-serif;
   }
 
-  .darkHeading2Xl {
-    color: white;
+  .heading2Xl a {
+    color: black;
   }
 
-  .heading2Xl:hover {
-    color: black;
+  .darkHeading2Xl {
+    color: white;
   }
   
   .headingXl {
@@ -187,6 +187,10 @@
 .activeTab a {
    color: black;
 }
+
+.heading2Xl:hover {
+    color: black;
+  }
 
 .nfts {
     display: grid;
